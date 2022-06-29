@@ -79,9 +79,32 @@ a:visited{
     height: 500px;
     border: 1px solid black;
     margin-top: 30px;
+    position: relative;
+    background-image: url(../CSS/CSScheatsheet/bgimage.jpg);
 }
 
 .p-box h1{
     position:absolute;
-    top: 40px;
+    top: 50px;
+    left: 50%;
 }
+
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 50%;
+}
+
+.list li:first-child{
+    background: red;
+}
+
+.list li:last-child{
+    background: blue;
+}
+
+.list li:nth-child(5){
+    background: yellow;
+
+}
+
