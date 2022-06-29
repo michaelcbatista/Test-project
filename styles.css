@@ -6,6 +6,23 @@ body{
     font-size:16px;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: red;
+}
+
+a:visited{
+    color: rebeccapurple;
+}
+
 .container{
     width: 75%;
     margin: auto;
@@ -28,4 +45,31 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
     text-decoration: underline;
+}
+
+.box-2{
+    border: 4px dashed #ccc;
+    padding:20px;
+    margin:20px 0;
+}
+
+.categories{
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: square;;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: 1px #333;
+    list-style-image: url(./assets/check.png);
 }
