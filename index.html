@@ -4,44 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <header id="main-header">
-        <div class="container"> 
-            <h1>My Website</h1>
-        </div>
-    </header>  
-
-        <nav id="navbar">
-        <div class="container"> 
+    <section>
+        <nav>
+            <img src="./assests/FES.svg" alt="">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#discord">Discord</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <header>
+            <div>
+                <h1>Best place to learn Frotend</h1>
+                <p>Go from an absolute beginner to pro with this simplified process</p>
+                <button>Start now</button>
+            </div>
+            <figure>
+                <img src="./assests/laptop.png" alt="">
+            </figure>
+        </header>
+    </section>
 
-        <section id="showcase">
-            <div class="container">
-                <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum porro adipisci</h1>
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium a ab, voluptatum ratione ut asperiores magni vel magnam commodi hic mollitia exercitationem dolor sapiente voluptatem facilis omnis beatae quis esse.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt fuga facilis, voluptas corrupti odio mollitia ullam modi repellat earum enim sapiente pariatur unde ea odit culpa ratione dicta accusantium asperiores!</p>
+            </div>
+            <figure>
+                <img src="./assests/about.jpg" alt="">
+            </figure>
+        </section>
+        <section id="discord">
+            <h2>Discord</h2>
+            <figure>
+                <img src="./assests/discord.png" alt="">
+            </figure>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi saepe at tenetur ex rem repudiandae, laboriosam velit asperiores sint doloribus, dolorum, omnis culpa nam totam. Soluta distinctio provident dolorem alias.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, voluptate! Laboriosam deleniti explicabo delectus excepturi accusantium adipisci inventore ratione consequuntur! Voluptatum quas explicabo voluptates harum repellendus dolores rem odio porro.</p>
             </div>
         </section>
-
-        <div class="container">
-        <section id="main">
-            <h1>Welcome</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, esse. Nisi repudiandae alias, nesciunt repellendus minus molestiae eveniet deserunt quae corporis incidunt! Voluptate enim mollitia ipsam cum magni architecto quibusdam?</p>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="">
+                <label for="email"></label>
+                <input type="text" placeholder="JSmith@example.com">
+                <label for="message"></label>
+                <textarea type="text" placeholder="JSmith@example.com"></textarea>
+            </form>
         </section>
-        <aside id="sidebar">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, esse. Nisi repudiandae alias, nesciunt repellendus minus</p>
-        </aside>
-    </div>  
-
-    <footer id="main-footer">
-        <p>Copyright &copy; 2022 My Website</p>
+    </main>
+    <footer>
+        <img src="./assests/FES.svg" alt="">
+        <div>
+            <a href="#about">About</a>
+            <a href="#discord">Discord</a>
+            <a href="#contact">Contact</a>
+            <a href="">Courses</a>
+        </div>
+        <p>Copyright Frontend Simplified</p>
     </footer>
 </body>
 </html>
