@@ -34,40 +34,49 @@
     <main>
         <section id="about">
             <h2>About</h2>
-            <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium a ab, voluptatum ratione ut asperiores magni vel magnam commodi hic mollitia exercitationem dolor sapiente voluptatem facilis omnis beatae quis esse.</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt fuga facilis, voluptas corrupti odio mollitia ullam modi repellat earum enim sapiente pariatur unde ea odit culpa ratione dicta accusantium asperiores!</p>
+            <div class="row">
+            <div class="section__description">
+            <div class="section__description--wrapper">
+                <p class="section__description--para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium a ab, voluptatum ratione ut asperiores magni vel magnam commodi hic mollitia exercitationem dolor sapiente voluptatem facilis omnis beatae quis esse.</p>
+                <p class="section__description--para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt fuga facilis, voluptas corrupti odio mollitia ullam modi repellat earum enim sapiente pariatur unde ea odit culpa ratione dicta accusantium asperiores!</p>
             </div>
-            <figure>
+            <figure class="about__img--wrapper">
                 <img src="./assests/about.jpg" alt="">
             </figure>
+            </div>
+            </div>
         </section>
         <section id="discord">
             <h2>Discord</h2>
-            <figure>
+            <div class="row">
+            <div class="section__description">
+            <figure class="about__img--wrapper">
                 <img src="./assests/discord.png" alt="">
             </figure>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi saepe at tenetur ex rem repudiandae, laboriosam velit asperiores sint doloribus, dolorum, omnis culpa nam totam. Soluta distinctio provident dolorem alias.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, voluptate! Laboriosam deleniti explicabo delectus excepturi accusantium adipisci inventore ratione consequuntur! Voluptatum quas explicabo voluptates harum repellendus dolores rem odio porro.</p>
+            <div class="section__description--wrapper">
+                <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi saepe at tenetur ex rem repudiandae, laboriosam velit asperiores sint doloribus, dolorum, omnis culpa nam totam. Soluta distinctio provident dolorem alias.</p>
+                <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, voluptate! Laboriosam deleniti explicabo delectus excepturi accusantium adipisci inventore ratione consequuntur! Voluptatum quas explicabo voluptates harum repellendus dolores rem odio porro.</p>
+            </div>
+            </div>
             </div>
         </section>
         <section id="contact">
             <h2>Contact</h2>
             <form action="">
-                <label for="email"></label>
-                <input type="text" placeholder="JSmith@example.com">
-                <label for="message"></label>
-                <textarea type="text" placeholder="JSmith@example.com"></textarea>
+                <label for="email">Email</label>
+                <input type="email" placeholder="JSmith@example.com">
+                <label for="textarea">Message</label>
+                <textarea type="text" placeholder="Contact us..."></textarea>
+                <button>Submit</button>
             </form>
         </section>
     </main>
     <footer>
-        <img src="./assests/FES.svg" alt="">
-        <div>
-            <a href="#about">About</a>
-            <a href="#discord">Discord</a>
-            <a href="#contact">Contact</a>
+        <img class="footer__logo" src="./assests/FES.svg" alt="">
+        <div class="footer__links">
+            <a class="footer__link" href="#about">About</a>
+            <a class="footer__link" href="#discord">Discord</a>
+            <a class="footer__link" href="#contact">Contact</a>
             <a href="">Courses</a>
         </div>
         <p>Copyright Frontend Simplified</p>
